@@ -1258,7 +1258,7 @@ hr{
     border: 5px solid rgb(227, 230, 232);
 }
 .edits{
-    height: 80px;
+    height: 70px;
     width: 941px;
     background-color: rgb(227, 230, 232);
     margin: auto;
@@ -1771,6 +1771,7 @@ hr{
 /* W3 Templates */
 
     .templates img{
+        height: 60%;
         width: 100%;
     }
 
@@ -1902,6 +1903,11 @@ hr{
         bottom: -98px;
         left: 68%;
     }
+
+/* Screen */
+    .screen .images img{
+        height: 50%;
+    }
    
 
 }
@@ -1954,11 +1960,32 @@ hr{
     }
 
 /* Others */
-
+    .big_box{
+        padding: 25px 0;
+        row-gap: 20px;
+    }
+    .big_box .xob5{
+        height: auto;
+    }
+    .big_box h5{
+        line-height: 1.5;
+    }
+    .mediam_box{
+        grid-template-columns: repeat(1,100%);
+        row-gap: 20px;
+    }
     .small_box{
+        margin-top: 20px;
         display: grid;
-        grid-template-columns: repeat(1,95%);
-        justify-content: center;   
+        grid-template-columns: repeat(1,100%);
+        row-gap: 20px;
+    }
+    .small_box .mann h2 {
+        margin: 20px 0;
+    }
+    .long_box{
+        margin-top: 20px;
+        row-gap: 20px;
     }
     .long_box .nam{
         display: block;
@@ -1980,6 +2007,22 @@ hr{
 
     .code .a1,.code .a2{
         width: 100%;;
+    }
+    .code h1{
+        font-size: 60px;
+    }
+    .code h5{
+        margin: 25px 0;
+    }
+    .edit input{
+        margin-left: -75px;
+        width: 60%;
+    } 
+    .code .a1,.code .a2{
+        height: auto;
+        white-space: nowrap;
+        font-weight: 600;
+        overflow-x: hidden;
     }
 
 /* Spaces and Teachers */
@@ -2007,6 +2050,9 @@ hr{
     .templates{
         padding-bottom: 80px;
     }
+    .templates img{
+        height: 35%;
+    }
 
 /* Certified */
 
@@ -2024,9 +2070,36 @@ hr{
         position: relative;
         top: -125%;
         left: 75%;
-    }   
+    }  
+/* Screen */
+
+    .screen .images img{
+        height: 30%;
+    }
+    .screen .edits{
+        height: 55px;
+    }
+    .stand{
+        height: 50px;
+    }
 }
 @media screen and (max-width:450px){
+
+/*Teachers */
+    .teachers{
+        padding: 25px 0;
+    }
+    .teachers h1{
+        font-size: 55px;
+        padding: 0;
+    }
+    .teachers .list,.plus .list{
+        padding-left: 30px;
+    }
+    .teachers .list li{
+        font-size: 18px;
+        line-height: 1.5;
+    }
 
 /* Search */
 
